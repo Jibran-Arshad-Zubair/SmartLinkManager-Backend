@@ -4,7 +4,7 @@ import { successfulResponse, invalidResponse } from "../../../utils/index.js";
 const prisma = new PrismaClient();
 class AuthServices {
   async handleRegister(body) {
-    console.log("Register Body:", body);
+   
     try {
       const { username, email, password, role } = body;
 
